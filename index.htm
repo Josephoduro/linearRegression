@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Linear Regression</title>
+  </head>
+  <body>
+    <form id="linearRegressionForm">
+      <label for="xValues">X Values: </label>
+      <input type="text" id="xValues" placeholder="Enter X values" />
+
+      <label for="yValues">Y Values: </label>
+      <input type="text" id="yValues" placeholder="Enter Y values" />
+
+      <button type="button" onclick="performLinearRegression()">Predict</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: #7cbe7e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  background: #ccc;
+  padding: 45px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 8px;
+  background-color: #619763;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  border: 2px solid #ccc;
+  padding: 3px;
+
+  background: wheat;
+}
